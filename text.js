@@ -18,14 +18,7 @@ async function checkWeather(city) {
     document.querySelector(".temp").innerHTML = Math.round(cel) + "°C";
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
-//     let weather = data.sys.sunrise
-
-   
-//     if (data.sys.sunrise===data.sys.sunrise) {
-//     backgroundColor="blue"
-//    } else {
-//     backgroundColor="green"
-//    }
+//     
    var time =  getHourForTimezone(data.timezone);
    console.log(time)
     if (data.weather[0].main == "Clouds") {
