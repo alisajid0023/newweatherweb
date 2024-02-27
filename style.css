@@ -152,6 +152,9 @@ font-weight: 600;
     .humidity{
         font-size: 19px;
     }
+    .city{
+        width: 200px;
+    }
     
 }
 
